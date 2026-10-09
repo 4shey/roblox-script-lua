@@ -1,14 +1,13 @@
--- File: loader.lua (Panda Auth v3 + Rayfield UI)
+-- File: loader.lua (Panda Auth v3 + Rayfield UI) - FIXED VERSION
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu'))()
 
 -- 1. Memuat Pustaka API Resmi Panda Auth v3
 local PandaAuth = loadstring(game:HttpGet("https://pandauth.com"))()
 
 -- 2. KONFIGURASI TAUTAN & API
--- Tempelkan API Key yang Anda salin dari Langkah 1 ke dalam tanda petik di bawah ini:
 local API_KEY_PANDA = "45e1e8b3-f088-4a74-ae89-59fa6c0ea56d"
 local IDENTIFIER_LAYANAN = "jmk48"
-local LINK_GITHUB_SKRIP_UTAMA = "https://raw.githubusercontent.com/4shey/roblox-script-lua/refs/heads/main/fitur_aman.lua"
+local LINK_GITHUB_SKRIP_UTAMA = "https://githubusercontent.com"
 
 -- Tautan resmi halaman pencarian kunci untuk pemain Anda
 local LINK_GET_KEY = "https://pandauth.com" .. IDENTIFIER_LAYANAN
