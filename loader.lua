@@ -4,13 +4,13 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu'))()
 
 -- KONSFIGURASI UTAMA
-local KUNCI_BENAR = "NasiRendang2026" 
+local KUNCI_BENAR = "JMK48" 
 local LINK_IKLAN = "https://lootlabs.com" 
 -- Link di bawah ini nanti wajib diganti dengan link RAW GitHub dari berkas terenkripsi Anda
 local LINK_GITHUB_SKRIP_UTAMA = "https://raw.githubusercontent.com/4shey/roblox-script-lua/refs/heads/main/fitur_aman.lua"
 
 local Window = Rayfield:CreateWindow({
-   Name = "Nasi Rendang Hub | Security System",
+   Name = "JMK48 Hub | Security System",
    LoadingTitle = "Memeriksa Otorisasi...",
    LoadingSubtitle = "Sistem Keamanan Aktif",
    Theme = "Default",
