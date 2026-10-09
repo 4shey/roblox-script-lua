@@ -58,7 +58,7 @@ KeyTab:CreateInput({
               Title = "Verifikasi Gagal!", 
               Content = "Kunci salah, expired, atau sudah terkunci di HP lain!", 
               Duration = 4 
-           })
+       })
        end
    end,
 })
